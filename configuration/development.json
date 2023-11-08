@@ -1,0 +1,14 @@
+{
+  "log_level": "DEBUG",
+  "secret_manager_project_id": "felix-technologies",
+  "posthog_debug": true,
+  "posthog_disabled": false,
+  "pubsub_project_id": "felix-technologies",
+  "cloud_tracer_project_id": "felix-technologies",
+  "redis_host": "db-redis-sfo2-49391-do-user-12649904-0.b.db.ondigitalocean.com",
+  "redis_port": 25061,
+  "redis_username": "default",
+  "redis_ssl_connection": true,
+  "redis_ssl_cert_reqs": null,
+  "bookmarks": {}
+}

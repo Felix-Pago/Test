@@ -1,0 +1,8 @@
+{
+  "service_name": "rome",
+  "log_file": "application.log",
+  "log_format": "[%(asctime)s] — [%(processName)s] — [%(threadName)s] — [%(name)s] — [%(levelname)s] — [%(user_id)s] — [%(flow_function)s] — [trace_id=%(otelTraceID)s span_id=%(otelSpanID)s resource.service.name=%(otelServiceName)s] - [%(message)s]",
+  "secret_manager_path": "projects/{project_id}/secrets/{secret_id}/versions/latest",
+  "secret_manager_cache_size": 128,
+  "secret_manager_cache_ttl": 10
+}
